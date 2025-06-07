@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AAA_flow</title>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://unpkg.com/immutable@4.0.0/dist/immutable.js"></script>
+</head>
+    <body style="background-color: #ccc">
+    <div id="root">
+        Hello Initial
+    </div>
+        
+<script type="text/babel">
+function my_start() {
+    
+    // make an element
+    const elem1 = <h1>Hello from elem1</h1>;
+
+    // function component
+    var Home = () => {
+        return <div>Welcome Home</div>;
+    }
+
+
+    // this works
+    ReactDOM.render(elem1, document.getElementById('root'));
+
+    // this shouldnt
+    // ReactDOM.render(Home, document.getElementById('root'));
+
+    // this should
+    // ReactDOM.render(<Home />, document.getElementById('root'));
+
+}
+
+// invoke start options
+// onLoad="my_start();      // add to body tag
+// my_start();              // call about here
+// set timeout to call my_start soon.
+
+// setTimeout(function, milliseconds, param1, param2, ...)
+setTimeout(my_start, 700);
+
+</script>
+    </body>
+</html>
+
