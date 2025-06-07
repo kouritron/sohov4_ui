@@ -21,6 +21,14 @@ mv ~/nodez/dl_tmp/nd24 ~/nodez/
 # awesome, now you have nd24 in the custom location ~/nodez/
 
 
+# --- set path in bashrc to get the binaries
+export PATH="$HOME/nodez/nd24/bin:$PATH"
+
+# --- now you should have
+node -v        # v24.1.0
+npm -v         # 11.3.0
+
+
 
 # ------------------------------------------------------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------------------------------------------------------
