@@ -13,8 +13,12 @@ rm -rf $REPO_ROOT/artifactz
 # sleep 1
 echo "making new bundle ..."
 mkdir -p $REPO_ROOT/artifactz/static
+mkdir -p $REPO_ROOT/artifactz/static
 
 cp $REPO_ROOT/src_ui/index.html $REPO_ROOT/artifactz/index.html
+cp $REPO_ROOT/src_ui/assets/favicon.svg $REPO_ROOT/artifactz/static/favicon.svg
+cp $REPO_ROOT/src_ui/assets/favicon.ico $REPO_ROOT/artifactz/static/favicon.ico
+cp $REPO_ROOT/src_ui/assets/favicon.svg $REPO_ROOT/artifactz/favicon.svg
 cp $REPO_ROOT/src_ui/assets/favicon.ico $REPO_ROOT/artifactz/favicon.ico
 
 
