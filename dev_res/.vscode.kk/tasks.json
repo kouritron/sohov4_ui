@@ -21,13 +21,9 @@
         {
             "label": "xk2: serve small demos",
             "type": "process",
-            "command": "python3",
+            "command": "bash",
             "args": [
-                "-m",
-                "http.server",
-                "14467",
-                "--directory",
-                "${workspaceFolder}/dev_res/small_demos"
+                "${workspaceFolder}/scriptz/serve_small_demos.sh",
             ],
             "presentation": {
                 "reveal": "always",
