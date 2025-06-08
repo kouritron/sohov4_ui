@@ -32,13 +32,18 @@ cd $REPO_ROOT/src_ui
 # for prod minify
 # esbuild app.jsx --bundle --minify --target=chrome58,firefox57,safari11,edge16
 
-esbuild app.jsx --bundle --sourcemap --outfile=$REPO_ROOT/artifactz/static/sohov4_bundle.js
+esbuild app.jsx --bundle --outfile=$REPO_ROOT/artifactz/static/sohov4_bundle.js \
+    --sourcemap --target=chrome110,firefox110 
 
+
+# - by default esbuild targets browser
+# - for production you might want to add --minify
+# - for dev/testing you might want to add --sourcemap
+# - you can transpile to lower js versions for compatibility using --target=chrome110,firefox110
+# --loader:.svg=file exists too.
 
 # ------------------------------------------------------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------------------------------------------------------
-
-
 
 
 
