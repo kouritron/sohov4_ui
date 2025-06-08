@@ -1,5 +1,3 @@
-// @ts-nocheck
-
 const esbuild = require('esbuild');
 const path = require('path');
 const { execSync } = require('child_process');
