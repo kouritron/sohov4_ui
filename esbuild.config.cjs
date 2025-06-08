@@ -8,6 +8,7 @@ console.log(repo_root);
 // ----- drop artifactz folder and recreate it
 const artifactz_path = path.join(repo_root, 'artifactz');
 execSync(`rm -rf ${artifactz_path}`, { stdio: 'inherit' });
+execSync('sleep 1');
 execSync(`mkdir -p ${artifactz_path}/static`, { stdio: 'inherit' });
 
 // copy the index.html file to the artifactz folder
