@@ -7,7 +7,7 @@
         "npm": "~11.3.0"
     },
     "scripts": {
-        "build": "node esbuild.config.js",
+        "build": "node esbuild.config.cjs",
         "start": "bash scriptz/serv_artifactz.sh"
     },
     "dependencies": {
