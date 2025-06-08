@@ -32,7 +32,7 @@ cd $REPO_ROOT/src_ui
 # for prod minify
 # esbuild app.jsx --bundle --minify --target=chrome58,firefox57,safari11,edge16
 
-esbuild app.jsx --bundle --outfile=$REPO_ROOT/artifactz/static/sohov4_bundle.js \
+npx esbuild app.jsx --bundle --outfile=$REPO_ROOT/artifactz/static/sohov4_bundle.js \
     --sourcemap --target=chrome110,firefox110 
 
 
