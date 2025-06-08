@@ -19,21 +19,6 @@
         // ---------------------------------------------------------------------------------------------------------------------
         // ---------------------------------------------------------------------------------------------------------------------
         {
-            "label": "xk2: serve small demos",
-            "type": "process",
-            "command": "bash",
-            "args": [
-                "${workspaceFolder}/scriptz/serve_small_demos.sh"
-            ],
-            "presentation": {
-                "reveal": "always",
-                "panel": "dedicated"
-            },
-            "problemMatcher": []
-        },
-        // ---------------------------------------------------------------------------------------------------------------------
-        // ---------------------------------------------------------------------------------------------------------------------
-        {
             "label": "xk2: make_bundle",
             "type": "process",
             "command": "bash",
@@ -53,7 +38,22 @@
             "type": "process",
             "command": "bash",
             "args": [
-                "${workspaceFolder}/scriptz/serve_artifactz.sh"
+                "${workspaceFolder}/scriptz/serv_artifactz.sh"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            },
+            "problemMatcher": []
+        },
+        // ---------------------------------------------------------------------------------------------------------------------
+        // ---------------------------------------------------------------------------------------------------------------------
+        {
+            "label": "xk2: serve small demos",
+            "type": "process",
+            "command": "bash",
+            "args": [
+                "${workspaceFolder}/scriptz/serv_small_demos.sh"
             ],
             "presentation": {
                 "reveal": "always",
