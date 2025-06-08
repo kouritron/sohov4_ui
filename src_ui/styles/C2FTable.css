@@ -1,23 +1,34 @@
-.table-container {
-    background-color: #999;
-    max-width: 400px;
-    margin: 60px auto;
+.c2f-table-container {
+    background-color: #ccc;
+    max-width: 500px;
+    margin: 20px auto;
     text-align: center;
     font-family: Arial, sans-serif;
 }
 
-table {
+.c2f-table-title {
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.c2f-table-container table {
     border-collapse: collapse;
     width: 100%;
 }
 
-th,
-td {
-    border: 1px solid #ddd;
+
+
+.c2f-table-container th,
+.c2f-table-container td {
+    border: 5px solid #ddd;
     padding: 8px;
 }
 
-th {
+.c2f-table-container th {
     background-color: #f2f2f2;
     font-weight: bold;
 }

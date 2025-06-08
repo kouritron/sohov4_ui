@@ -7,20 +7,20 @@ const C2FTable = () => {
     const convertToFahrenheit = (celsius) => (celsius * 9) / 5 + 32;
 
     return (
-        <div className="table-container">
-            <h1>Celsius to Fahrenheit Conversion</h1>
+        <div className="c2f-table-container">
+            <h1 className="c2f-table-title">Celsius to Fahrenheit</h1>
             <table>
                 <thead>
                     <tr>
-                        <th>Celsius (°C)</th>
-                        <th>Fahrenheit (°F)</th>
+                        <th>Celsius</th>
+                        <th>Fahrenheit</th>
                     </tr>
                 </thead>
                 <tbody>
                     {celsiusValues.map((c) => (
                         <tr key={c}>
                             <td>{c}</td>
-                            <td>{convertToFahrenheit(c).toFixed(1)}</td>
+                            <td>{Math.round(convertToFahrenheit(c))}</td>
                         </tr>
                     ))}
                 </tbody>
