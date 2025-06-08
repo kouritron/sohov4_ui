@@ -7,7 +7,7 @@
         "npm": "~11.3.0"
     },
     "scripts": {
-        "build": "bash scriptz/make_bundle.sh",
+        "build": "node esbuild.config.js",
         "start": "bash scriptz/serv_artifactz.sh"
     },
     "dependencies": {
