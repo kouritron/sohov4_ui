@@ -17,7 +17,7 @@ python3 -m http.server 14467 --bind 127.0.0.1 --directory ./BBB
 
 ```bash
 
-cp -r dev_res/.vscode.kk/ ./.vscode/
+cp -r dev_res/vscode.kk/ ./.vscode/
 
 
 ```
