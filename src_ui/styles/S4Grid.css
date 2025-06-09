@@ -101,29 +101,36 @@
 
 
 /* --------------------------------------------------------------------------------------------------------------- utilities  */
-.s4_border_dark {
-    border: 6px solid #666;
+.s4_border7_dark {
+    border: 7px solid #666;
+}
+.s4_border7_light {
+    border: 7px solid #fff;
+}
+.s4_border14_light {
+    border: 14px solid #fff;
+}
+.s4_border14_dark {
+    border: 14px solid #666;
 }
 
-.s4_border_light {
-    border: 6px solid #fff;
-}
 
 .s4_mono_text {
     font-family: 'Ubuntu Mono', 'Inconsolata', monospace;
 }
 
-.separator_line_thin {
-    background-color: #fff;
-    color: #111;
-    height: 6px;
-}
-
-.separator_line {
+.s4_sep_line14 {
     background-color: #666;
     color: #111;
     height: 14px;
 }
+.s4_sep_line7 {
+    background-color: #fff;
+    color: #111;
+    height: 7px;
+}
+
+
 
 .s4_padded_10 {
     padding: 10px;
@@ -133,7 +140,13 @@
     margin: 4px;
 }
 
-.s4_bold {
+.s4_text_large {
+    font-size: 2.5em;
+}
+.s4_text_medium {
+    font-size: 1.5em;
+}
+.s4_text_bold {
    font-weight: bold;
 }
 
@@ -153,14 +166,7 @@
 } */
 
 
-
-
-.bordered_top {
-    border-top: dashed #111111;
-    border-top-width: thin;
-}
-
-.s4_centered_content {
+.s4_center_justified {
     justify-content: center;
 }
 .s4_centered_text {
