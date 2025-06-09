@@ -3,7 +3,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 // import App from './App';
 import C2FTable from './components/C2FTable';
-import './styles/GlobalStyles.css';
+import './styles/GridSystem.css';
 
 
 console.log("index.js: About to create root")
