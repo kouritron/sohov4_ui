@@ -1,0 +1,189 @@
+
+/* --------------------------------------------------------------------------------------------------------------------- dbg  */
+
+/*
+
+* {
+    border: 2px solid red !important;
+}
+
+*/
+
+/* -------------------------------------------------------------------------------------------------------------- grid system */
+* {
+    box-sizing: border-box;
+}
+
+.s4_grid_large {
+    max-width: 1020px;
+    background-color: #EEE;
+
+    display: block;
+    margin: auto;
+}
+
+.s4_grid_small {
+    max-width: 600px;
+    background-color: #EEE;
+
+    display: block;
+    margin: auto;
+}
+
+.s4_row {
+    width: 100%;
+    display: flex;
+}
+
+.col_1 {
+    width: 1%;
+}
+
+.col_2 {
+    width: 2%;
+}
+
+.col_3 {
+    width: 3%;
+}
+
+.col_4 {
+    width: 4%;
+}
+
+.col_5 {
+    width: 5%;
+}
+
+.col_10 {
+    width: 10.0%;
+}
+
+.col_12 {
+    width: 12.0%;
+}
+.col_15 {
+    width: 15.0%;
+}
+.col_20 {
+    width: 20.0%;
+}
+.col_25 {
+    width: 25.0%;
+}
+.col_30 {
+    width: 30.0%;
+}
+.col_40 {
+    width: 40.0%;
+}
+.col_50 {
+    width: 50.0%;
+}
+.col_60 {
+    width: 60.0%;
+}
+.col_70 {
+    width: 70.0%;
+}
+.col_80 {
+    width: 80.0%;
+}
+.col_90 {
+    width: 90.0%;
+}
+.col_100 {
+    width: 100.0%;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------- utilities  */
+.s4_border7_dark {
+    border: 7px solid #666;
+}
+.s4_border7_light {
+    border: 7px solid #fff;
+}
+.s4_border14_light {
+    border: 14px solid #fff;
+}
+.s4_border14_dark {
+    border: 14px solid #666;
+}
+
+
+.s4_mono_text {
+    font-family: 'Ubuntu Mono', 'Inconsolata', monospace;
+}
+
+.s4_sep_line14 {
+    background-color: #666;
+    color: #111;
+    height: 14px;
+}
+.s4_sep_line7 {
+    background-color: #fff;
+    color: #111;
+    height: 7px;
+}
+
+
+
+.s4_padded_10 {
+    padding: 10px;
+}
+
+.s4_margin_4 {
+    margin: 4px;
+}
+
+.s4_text_large {
+    font-size: 2.5em;
+}
+.s4_text_medium {
+    font-size: 1.5em;
+}
+.s4_text_bold {
+   font-weight: bold;
+}
+
+.left_padded_item {
+    padding-left: 10px;
+}
+
+.vertical_padded_item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* .s4_vertical_line {
+    border-left: 5px solid #333;
+    align-self: stretch;
+    box-sizing: border-box;
+} */
+
+
+.s4_center_justified {
+    justify-content: center;
+}
+.s4_centered_text {
+    text-align: center;
+}
+
+.hidden_item {
+    visibility: hidden;
+}
+
+.invalidated_input {
+    color: red;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
