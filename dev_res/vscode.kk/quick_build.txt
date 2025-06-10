@@ -1,0 +1,10 @@
+put this into 
+.vscode/keybindings.json
+
+{
+    "key": "f7",
+    "command": "workbench.action.tasks.runTask",
+    "args": "xk2_npm_build"
+},
+
+
